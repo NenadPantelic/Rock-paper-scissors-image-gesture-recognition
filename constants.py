@@ -1,0 +1,7 @@
+# == Parameters == #
+BLUR = 5
+CANNY_THRESH_1 = 10
+CANNY_THRESH_2 = 100
+MASK_DILATE_ITER = 20
+MASK_ERODE_ITER = 20
+MASK_COLOR = (0.0, 0.0, 0.0)  # In BGR format
