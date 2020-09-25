@@ -6,14 +6,13 @@ class ImageParam:
     rotationAngle = 0
 
     # flags
-    #shouldTakeUpperHalf = False
     takeUpperHalf = False
 
     # dist params
-    consecutiveDefectPointsDist = 30.0
+    consecutivePointsDistThreshold = 30.0
 
     # coordinates offsets
-    consecutiveDefectPointsCoordOffset = 5.0
+    consecutivePointsCoordOffset = 5.0
 
     # valley params
     valleyTopPointsHeightDiff = 50

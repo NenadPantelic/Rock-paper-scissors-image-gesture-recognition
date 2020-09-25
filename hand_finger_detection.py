@@ -7,8 +7,8 @@ def findClosePoints(points):
     closePoints = {}
     pointNo = 0
     batch = []
-    distThreshold = ImageParam.consecutiveDefectPointsDist
-    coordsOffset = ImageParam.consecutiveDefectPointsCoordOffset
+    distThreshold = ImageParam.consecutivePointsDistThreshold
+    coordsOffset = ImageParam.consecutivePointsCoordOffset
     for i in range(len(points) - 1):
         dist = distanceBetweenPoints(points[i], points[i + 1])
         x1, y1 = points[i]

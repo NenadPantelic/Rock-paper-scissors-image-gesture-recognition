@@ -103,6 +103,7 @@ def findAndDrawFingerParams(maxContour, image):
     return fingersImage, foundFingers, rootPoint, distances, valleys
 
 
+# TODO: need to be refactored - optimize conditions above all
 def determineGesture(image, fingers, rootPoint, rootToPointsDistances, valleys):
     decisionCredibility = "uncertain"
     foundGesture = None
@@ -120,6 +121,7 @@ def determineGesture(image, fingers, rootPoint, rootToPointsDistances, valleys):
             a = distanceBetweenPoints(valleys[0][0], valleys[0][2])
             b = distanceBetweenPoints(valleys[0][1], valleys[0][2])
             valley = valleys[0]
+            # TODO: too complex condition - recode this
             if ((abs(valley[0][1] - valley[1][1]) < ImageParam.valleyTopPointsHeightDiff) and
                 valley[2][1] - max(valley[0][1], valley[1][1]) > ImageParam.valleyDepthThreshold) or \
                     (a >= ImageParam.valleySidesLengthFactor * b) or \

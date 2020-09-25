@@ -23,7 +23,7 @@ imagePath = "images/paper_11.jpg"  # --rotationAngle 90 --takeUpperHalf 1
 imagePath = "images/paper_12.jpg"  # --angleOffset 45
 imagePath = "images/paper_13.jpg"  # --rotationAngle  -90
 
-###  ROCK ###
+# # ###  ROCK ###
 
 imagePath = "images/rock_1.jpg"
 imagePath = "images/rock_2.jpg"
@@ -35,14 +35,14 @@ imagePath = "images/rock_7.jpg"
 imagePath = "images/rock_8.jpg"
 imagePath = "images/rock_9.jpg"
 imagePath = "images/rock_10.jpg"
-imagePath = "images/rock_11.jpg"  # palac istaknut --takeUpperHalf
-imagePath = "images/rock_12.jpg"  # prst uvucen malo --takeUpperHalf
+imagePath = "images/rock_11.jpg"  # prominent thumb  --takeUpperHalf 1 # comment in serbian - palac strci malo
+imagePath = "images/rock_12.jpg"  # finger retraction  --takeUpperHalf 1 # comment in serbian - prst uvucen malo
 imagePath = "images/rock_13.jpg"
-
-### SCISSORS ###
+#
+# ### SCISSORS ###
 imagePath = "images/scissors_1.jpg"
 imagePath = "images/scissors_2.jpg"  # --rotationAngle -90 --angleOffset 15
-imagePath = "images/scissors_3.jpg"  # ne radi savrseno
+imagePath = "images/scissors_3.jpg"  # not perfect
 imagePath = "images/scissors_4.jpg"
 imagePath = "images/scissors_5.jpg"
 imagePath = "images/scissors_6.jpg"
